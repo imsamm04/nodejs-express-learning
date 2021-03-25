@@ -13,8 +13,6 @@ const db = low(adapter)
 // Set some defaults (required if your JSON file is empty)
 db.defaults({ users: [] })
   .write()
-
-
 // var users = [
 //   { id: 1, name: "viet" },
 //   { id: 2, name: "Hang" },
